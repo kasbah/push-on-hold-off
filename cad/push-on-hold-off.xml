@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/kaspar/projects/vrgo/hardware/push-on-hold-off/cad/push-on-hold-off.sch</source>
+    <date>Wed 20 Jan 2016 18:21:43 GMT</date>
+    <tool>Eeschema 0.201509051501+6156~29~ubuntu14.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>push-on-hold-off.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>IRF7309IPBF</value>
+      <footprint>SO-8</footprint>
+      <libsource lib="transistors" part="IRF7309IPBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FBD83</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FC392</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FC430</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FC492</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FC537</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FCB4E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FCE3F</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FCF63</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FD783</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>300k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FD864</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH_SMALL</value>
+      <libsource lib="device" part="SW_PUSH_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569FEA9F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH_SMALL">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="IRF7309IPBF">
+      <description>30V Vds, 3A Id, Dual HEXFET MOSFET, SO-8</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf</docs>
+      <footprints>
+        <fp>SO*</fp>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF7309IPBF</field>
+        <field name="Footprint">SO-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/usr/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="3" name="/Button">
+      <node ref="SW1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="Q1" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P2" pin="3"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="5" name="/Vout">
+      <node ref="C2" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q1" pin="6"/>
+    </net>
+    <net code="6" name="/Vin">
+      <node ref="P1" pin="4"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="7"/>
+    </net>
+  </nets>
+</export>
