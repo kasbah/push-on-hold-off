@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/kaspar/projects/vrgo/hardware/push-on-hold-off/cad/push-on-hold-off.sch</source>
-    <date>Wed 20 Jan 2016 18:21:43 GMT</date>
+    <date>Wed 20 Jan 2016 20:42:51 GMT</date>
     <tool>Eeschema 0.201509051501+6156~29~ubuntu14.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,67 +21,86 @@
   <components>
     <comp ref="Q1">
       <value>IRF7309IPBF</value>
-      <footprint>SO-8</footprint>
+      <footprint>Housings_SOIC.pretty:SOIJ-8_5.3x5.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Vendor">2468006</field>
+      </fields>
       <libsource lib="transistors" part="IRF7309IPBF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FBD83</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_01X04</value>
+      <footprint>Pin_Headers.pretty:Pin_Header_Straight_1x04</footprint>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FC392</tstamp>
     </comp>
     <comp ref="R1">
       <value>10k</value>
+      <footprint>Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FC430</tstamp>
     </comp>
     <comp ref="R2">
       <value>100k</value>
+      <footprint>Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FC492</tstamp>
     </comp>
     <comp ref="C1">
       <value>1uF</value>
+      <footprint>Capacitors_SMD.pretty:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FC537</tstamp>
     </comp>
     <comp ref="D1">
       <value>D</value>
+      <footprint>Diodes_SMD.pretty:SOD-323</footprint>
+      <fields>
+        <field name="Vendor">1466524</field>
+      </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FCB4E</tstamp>
     </comp>
     <comp ref="C2">
       <value>10uF</value>
+      <footprint>Capacitors_SMD.pretty:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FCE3F</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X04</value>
+      <footprint>Pin_Headers.pretty:Pin_Header_Straight_1x04</footprint>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FCF63</tstamp>
     </comp>
     <comp ref="R4">
       <value>100k</value>
+      <footprint>Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FD783</tstamp>
     </comp>
     <comp ref="R3">
       <value>300k</value>
+      <footprint>Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FD864</tstamp>
     </comp>
     <comp ref="SW1">
       <value>SW_PUSH_SMALL</value>
+      <footprint>Buttons_Switches_SMD.pretty:SW_SPST_EVPBF</footprint>
+      <fields>
+        <field name="Vendor">3801305</field>
+      </fields>
       <libsource lib="device" part="SW_PUSH_SMALL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FEA9F</tstamp>
