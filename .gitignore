@@ -3,3 +3,4 @@ $*.sch
 *.kicad_pcb-bak
 *.bak
 *.bck
+/_saved*.sch
