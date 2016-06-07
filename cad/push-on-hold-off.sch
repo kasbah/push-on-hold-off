@@ -47,9 +47,9 @@ $Comp
 L IRF7309IPBF Q1
 U 1 1 569FBD83
 P 6050 4300
-F 0 "Q1" H 6300 4375 50  0000 L CNN
-F 1 "IRF7309IPBF" H 6300 4300 50  0000 L CNN
-F 2 "Housings_SOIC.pretty:SOIJ-8_5.3x5.3mm_Pitch1.27mm" H 6300 4225 50  0000 L CNN
+F 0 "Q1" H 5900 4150 50  0000 L CNN
+F 1 "IRF7309IPBF" H 5600 4450 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5200 3600 50  0000 L CNN
 F 3 "" H 6050 4300 50  0000 L CNN
 F 4 "2468006" H 6050 4300 60  0001 C CNN "Vendor"
 	1    6050 4300
@@ -61,7 +61,7 @@ U 2 1 569FBDAC
 P 6000 3700
 F 0 "Q1" H 6250 3775 50  0000 L CNN
 F 1 "IRF7309IPBF" H 6250 3700 50  0000 L CNN
-F 2 "Housings_SOIC.pretty:SOIJ-8_5.3x5.3mm_Pitch1.27mm" H 6250 3625 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6250 3625 50  0000 L CNN
 F 3 "" H 6000 3700 50  0000 L CNN
 	2    6000 3700
 	0    1    -1   0   
@@ -91,16 +91,14 @@ $EndComp
 $Comp
 L R R2
 U 1 1 569FC492
-P 5650 3800
-F 0 "R2" V 5730 3800 50  0000 C CNN
-F 1 "100k" V 5650 3800 50  0000 C CNN
-F 2 "Resistors_SMD.pretty:R_0603_HandSoldering" V 5580 3800 30  0001 C CNN
-F 3 "" H 5650 3800 30  0000 C CNN
-	1    5650 3800
+P 5500 3800
+F 0 "R2" V 5580 3800 50  0000 C CNN
+F 1 "100k" V 5500 3800 50  0000 C CNN
+F 2 "Resistors_SMD.pretty:R_0603_HandSoldering" V 5430 3800 30  0001 C CNN
+F 3 "" H 5500 3800 30  0000 C CNN
+	1    5500 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 3600 5800 3600
 $Comp
 L C C1
 U 1 1 569FC537
@@ -112,14 +110,6 @@ F 3 "" H 5350 4100 60  0000 C CNN
 	1    5350 4100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5050 3650 5050 3600
-Connection ~ 5050 3600
-Connection ~ 5650 3600
-Wire Wire Line
-	5500 4100 5950 4100
-Wire Wire Line
-	5950 4100 5950 3900
 $Comp
 L GND #PWR01
 U 1 1 569FC7CE
@@ -131,27 +121,6 @@ F 3 "" H 4700 4050 60  0000 C CNN
 	1    4700 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 3800 4700 3800
-Wire Wire Line
-	4700 3800 4700 4050
-Wire Wire Line
-	4650 3900 4700 3900
-Connection ~ 4700 3900
-Wire Wire Line
-	4650 3700 4850 3700
-Wire Wire Line
-	4850 3700 4850 4250
-Wire Wire Line
-	5650 3600 5650 3650
-Wire Wire Line
-	5650 3950 5650 4100
-Connection ~ 5650 4100
-Wire Wire Line
-	5050 3950 5050 4100
-Connection ~ 5050 4100
-Wire Wire Line
-	4850 4100 5200 4100
 Text Label 4650 3700 0    60   ~ 0
 Button
 $Comp
@@ -166,8 +135,6 @@ F 4 "1466524" H 4850 4400 60  0001 C CNN "Vendor"
 	1    4850 4400
 	0    1    1    0   
 $EndComp
-Connection ~ 4850 4100
-Connection ~ 5850 4100
 $Comp
 L GND #PWR02
 U 1 1 569FCD58
@@ -179,8 +146,6 @@ F 3 "" H 5950 4550 60  0000 C CNN
 	1    5950 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 4500 5950 4550
 $Comp
 L C C2
 U 1 1 569FCE3F
@@ -192,17 +157,6 @@ F 3 "" H 6500 3950 60  0000 C CNN
 	1    6500 3950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6500 4350 6500 4100
-Wire Wire Line
-	6500 3600 6500 3800
-Wire Wire Line
-	6200 3600 7550 3600
-Wire Wire Line
-	6300 3600 6300 3500
-Wire Wire Line
-	6300 3500 6200 3500
-Connection ~ 6300 3600
 $Comp
 L CONN_01X04 P2
 U 1 1 569FCF63
@@ -225,12 +179,6 @@ F 3 "" H 6950 3950 30  0000 C CNN
 	1    6950 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 3600 6950 3800
-Connection ~ 6500 3600
-Wire Wire Line
-	6950 4100 6950 4900
-Connection ~ 6500 4350
 $Comp
 L R R3
 U 1 1 569FD864
@@ -242,19 +190,12 @@ F 3 "" H 6700 4350 30  0000 C CNN
 	1    6700 4350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6250 4350 6550 4350
-Wire Wire Line
-	6950 4350 6850 4350
-Connection ~ 6950 3600
 Text Label 7300 3600 0    60   ~ 0
 Vout
 Text Label 4650 3600 0    60   ~ 0
 Vin
 Text Label 7300 3700 0    60   ~ 0
 Button
-Wire Wire Line
-	7550 3700 7300 3700
 $Comp
 L GND #PWR03
 U 1 1 569FDE5F
@@ -266,18 +207,6 @@ F 3 "" H 7450 3950 60  0000 C CNN
 	1    7450 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7550 3900 7450 3900
-Wire Wire Line
-	7450 3800 7450 3950
-Wire Wire Line
-	7550 3800 7450 3800
-Connection ~ 7450 3900
-Wire Wire Line
-	4850 4550 4850 4900
-Wire Wire Line
-	4850 4900 6950 4900
-Connection ~ 6950 4350
 $Comp
 L SW_PUSH_SMALL SW1
 U 1 1 569FEA9F
@@ -301,12 +230,117 @@ F 3 "" H 6100 5500 60  0000 C CNN
 	1    6100 5500
 	1    0    0    -1  
 $EndComp
+Text Label 5400 5250 0    60   ~ 0
+Button
+$Comp
+L C C4
+U 1 1 57563AC8
+P 5750 3850
+F 0 "C4" H 5775 3950 50  0000 L CNN
+F 1 "0.1uF" H 5750 3700 50  0000 L CNN
+F 2 "Capacitors_SMD.pretty:C_0603_HandSoldering" H 5788 3700 30  0001 C CNN
+F 3 "" H 5750 3850 60  0000 C CNN
+	1    5750 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C3
+U 1 1 57563BCA
+P 5700 4500
+F 0 "C3" H 5725 4600 50  0000 L CNN
+F 1 "0.1uF" H 5725 4400 50  0000 L CNN
+F 2 "Capacitors_SMD.pretty:C_0603_HandSoldering" H 5738 4350 30  0001 C CNN
+F 3 "" H 5700 4500 60  0000 C CNN
+	1    5700 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 3600 5800 3600
+Wire Wire Line
+	5050 3650 5050 3600
+Connection ~ 5050 3600
+Connection ~ 5500 3600
+Wire Wire Line
+	5500 4100 5950 4100
+Wire Wire Line
+	5950 4100 5950 3900
+Wire Wire Line
+	4650 3800 4700 3800
+Wire Wire Line
+	4700 3800 4700 4050
+Wire Wire Line
+	4650 3900 4700 3900
+Connection ~ 4700 3900
+Wire Wire Line
+	4650 3700 4850 3700
+Wire Wire Line
+	4850 3700 4850 4250
+Wire Wire Line
+	5500 3600 5500 3650
+Wire Wire Line
+	5500 3950 5500 4100
+Connection ~ 5500 4100
+Wire Wire Line
+	5050 3950 5050 4100
+Connection ~ 5050 4100
+Wire Wire Line
+	4850 4100 5200 4100
+Connection ~ 4850 4100
+Connection ~ 5850 4100
+Wire Wire Line
+	5950 4500 5950 4550
+Wire Wire Line
+	6500 4350 6500 4100
+Wire Wire Line
+	6500 3600 6500 3800
+Wire Wire Line
+	6200 3600 7550 3600
+Wire Wire Line
+	6300 3600 6300 3500
+Wire Wire Line
+	6300 3500 6200 3500
+Connection ~ 6300 3600
+Wire Wire Line
+	6950 3600 6950 3800
+Connection ~ 6500 3600
+Wire Wire Line
+	6950 4900 6950 4100
+Connection ~ 6500 4350
+Wire Wire Line
+	6250 4350 6550 4350
+Wire Wire Line
+	6950 4350 6850 4350
+Connection ~ 6950 3600
+Wire Wire Line
+	7550 3700 7300 3700
+Wire Wire Line
+	7550 3900 7450 3900
+Wire Wire Line
+	7450 3800 7450 3950
+Wire Wire Line
+	7550 3800 7450 3800
+Connection ~ 7450 3900
+Wire Wire Line
+	4850 4550 4850 4900
+Wire Wire Line
+	4850 4900 6950 4900
+Connection ~ 6950 4350
 Wire Wire Line
 	6050 5450 6100 5450
 Wire Wire Line
 	6100 5450 6100 5500
-Text Label 5400 5250 0    60   ~ 0
-Button
 Wire Wire Line
 	5850 5250 5400 5250
+Wire Wire Line
+	5700 4100 5700 4350
+Connection ~ 5700 4100
+Wire Wire Line
+	5750 3700 5750 3600
+Connection ~ 5750 3600
+Wire Wire Line
+	5700 4650 5700 4900
+Connection ~ 5700 4900
+Wire Wire Line
+	5750 4100 5750 4000
+Connection ~ 5750 4100
 $EndSCHEMATC
