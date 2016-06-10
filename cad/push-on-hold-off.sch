@@ -343,8 +343,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 3900 5500 3900
 Connection ~ 5950 3900
-Wire Wire Line
-	5450 3600 5450 3900
 Connection ~ 5450 3900
 Connection ~ 5450 3600
 $Comp
