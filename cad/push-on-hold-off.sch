@@ -426,4 +426,6 @@ $EndComp
 Wire Wire Line
 	3750 5150 3750 5050
 Connection ~ 3750 3600
+Wire Wire Line
+	5450 3900 5450 3600
 $EndSCHEMATC
