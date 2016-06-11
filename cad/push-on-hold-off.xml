@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/kaspar/projects/vrgo/hardware/push-on-hold-off/cad/push-on-hold-off.sch</source>
-    <date>Wed 20 Jan 2016 20:42:51 GMT</date>
-    <tool>Eeschema 0.201509051501+6156~29~ubuntu14.04.1-product</tool>
+    <date>Fri 10 Jun 2016 22:22:44 BST</date>
+    <tool>Eeschema 4.1.0-alpha+201606081201+6904~45~ubuntu14.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -21,8 +21,15 @@
   <components>
     <comp ref="Q1">
       <value>IRF7309IPBF</value>
-      <footprint>Housings_SOIC.pretty:SOIJ-8_5.3x5.3mm_Pitch1.27mm</footprint>
+      <footprint>KiCad/Housings_SOIC.pretty:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <fields>
+        <field name="Digikey">IRF7309PBFCT-ND</field>
+        <field name="Farnell">2468006</field>
+        <field name="Manufacturer">International Rectifier</field>
+        <field name="Mouser">IRF7309PBF</field>
+        <field name="Newark">19K8239</field>
+        <field name="Part Number">IRF7309PBF</field>
+        <field name="RS">5429377</field>
         <field name="Vendor">2468006</field>
       </fields>
       <libsource lib="transistors" part="IRF7309IPBF"/>
@@ -31,36 +38,69 @@
     </comp>
     <comp ref="P1">
       <value>CONN_01X04</value>
-      <footprint>Pin_Headers.pretty:Pin_Header_Straight_1x04</footprint>
+      <footprint>KiCad/Pin_Headers.pretty:Pin_Header_Straight_1x04</footprint>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FC392</tstamp>
     </comp>
     <comp ref="R1">
       <value>10k</value>
-      <footprint>Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <footprint>KiCad/Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Description">10k 0603</field>
+        <field name="Digikey">541-10KGCT-ND</field>
+        <field name="Farnell">1469749</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Mouser">CRCW060310K0JNEAHP</field>
+        <field name="Newark">52K8066</field>
+        <field name="Part Number">CRCW060310K0JNEA</field>
+        <field name="RS">8206928</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FC430</tstamp>
     </comp>
     <comp ref="R2">
       <value>100k</value>
-      <footprint>Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <footprint>KiCad/Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Description">100k  0603</field>
+        <field name="Digikey">541-100KGCT-ND</field>
+        <field name="Farnell">1692517</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Mouser">CRCW0603100KJNEAHP</field>
+        <field name="Newark">59M6763</field>
+        <field name="Part Number">CRCW0603100KJNEA</field>
+        <field name="RS">8206916</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FC492</tstamp>
     </comp>
     <comp ref="C1">
       <value>1uF</value>
-      <footprint>Capacitors_SMD.pretty:C_0603_HandSoldering</footprint>
+      <footprint>KiCad/Capacitors_SMD.pretty:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Description">1uF 0603 X5R</field>
+        <field name="Digikey">445-1796-1-ND</field>
+        <field name="Farnell">2354048</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Mouser">CC0603KRX5R7BB105</field>
+        <field name="Newark">04X3188</field>
+        <field name="Part Number">C0603X5R0J104K030BC</field>
+        <field name="RS">7882818</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FC537</tstamp>
     </comp>
     <comp ref="D1">
       <value>D</value>
-      <footprint>Diodes_SMD.pretty:SOD-323</footprint>
+      <footprint>KiCad/Diodes_SMD.pretty:MiniMELF_Handsoldering</footprint>
       <fields>
+        <field name="Farnell">7355513</field>
+        <field name="Manufacturer">MULTICOMP </field>
+        <field name="Part Number">LL4148</field>
         <field name="Vendor">1466524</field>
       </fields>
       <libsource lib="device" part="D"/>
@@ -69,41 +109,110 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>Capacitors_SMD.pretty:C_0603_HandSoldering</footprint>
+      <footprint>KiCad/Capacitors_SMD.pretty:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Description">10uF 0603 X5R</field>
+        <field name="Digikey">445-6853-1-ND</field>
+        <field name="Farnell">2211164</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Mouser">06036D106MAT2A</field>
+        <field name="Newark">04X3239</field>
+        <field name="Part Number">C1608X5R1A106M080AC</field>
+        <field name="RS">7882893</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FCE3F</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X04</value>
-      <footprint>Pin_Headers.pretty:Pin_Header_Straight_1x04</footprint>
+      <footprint>KiCad/Pin_Headers.pretty:Pin_Header_Straight_1x04</footprint>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FCF63</tstamp>
     </comp>
     <comp ref="R4">
       <value>100k</value>
-      <footprint>Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <footprint>KiCad/Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FD783</tstamp>
     </comp>
     <comp ref="R3">
       <value>300k</value>
-      <footprint>Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <footprint>KiCad/Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Description">300k  0603</field>
+        <field name="Digikey">311-300KGRCT-ND</field>
+        <field name="Farnell">1652871</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Mouser">RC0603JR07300KL</field>
+        <field name="Newark">52K8409</field>
+        <field name="Part Number">CRCW0603300KFKEA</field>
+        <field name="RS">8280617</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FD864</tstamp>
     </comp>
     <comp ref="SW1">
       <value>SW_PUSH_SMALL</value>
-      <footprint>Buttons_Switches_SMD.pretty:SW_SPST_EVPBF</footprint>
+      <footprint>custom:FSM2JSMA</footprint>
       <fields>
+        <field name="Digikey">450-1129-ND</field>
+        <field name="Farnell">3801305</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Mouser">414375651</field>
+        <field name="Newark">93K3887</field>
+        <field name="Part Number">4-1437565-1</field>
+        <field name="RS">4791508</field>
         <field name="Vendor">3801305</field>
       </fields>
       <libsource lib="device" part="SW_PUSH_SMALL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>569FEA9F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>KiCad/Capacitors_SMD.pretty:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57563AC8</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER3</value>
+      <footprint>mcous/kicad-lib/footprints/jumper.pretty:SOLDER-JUMPER_2-WAY</footprint>
+      <libsource lib="device" part="JUMPER3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5756527F</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>LED</value>
+      <footprint>KiCad/Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57594F96</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>KiCad/Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57595185</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED</value>
+      <footprint>KiCad/Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5759593F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>KiCad/Resistors_SMD.pretty:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57595945</tstamp>
     </comp>
   </components>
   <libparts>
@@ -125,6 +234,25 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="D">
       <description>Diode</description>
       <footprints>
@@ -141,31 +269,6 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="SW_PUSH_SMALL">
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_PUSH_SMALL</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="transistors" part="IRF7309IPBF">
@@ -191,23 +294,55 @@
         <pin num="8" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X04">
-      <description>Connector 01x04</description>
-      <footprints>
-        <fp>Pin_Header_Straight_1X04</fp>
-        <fp>Pin_Header_Angled_1X04</fp>
-        <fp>Socket_Strip_Straight_1X04</fp>
-        <fp>Socket_Strip_Angled_1X04</fp>
-      </footprints>
+    <libpart lib="device" part="JUMPER3">
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X04</field>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER3</field>
       </fields>
       <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH_SMALL">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -215,59 +350,76 @@
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="transistors">
-      <uri>/usr/share/kicad/library/transistors.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
+    <library logical="transistors">
+      <uri>/usr/share/kicad/library/transistors.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(D1-Pad2)">
+    <net code="1" name="/Button">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
       <node ref="R4" pin="2"/>
       <node ref="R3" pin="1"/>
     </net>
-    <net code="2" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
+    <net code="3" name="Net-(C2-Pad1)">
       <node ref="Q1" pin="2"/>
       <node ref="R3" pin="2"/>
-    </net>
-    <net code="3" name="/Button">
-      <node ref="SW1" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="P1" pin="3"/>
-      <node ref="R1" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="P2" pin="2"/>
+      <node ref="C2" pin="1"/>
     </net>
     <net code="4" name="GND">
-      <node ref="Q1" pin="1"/>
+      <node ref="P2" pin="4"/>
       <node ref="P1" pin="1"/>
       <node ref="P1" pin="2"/>
       <node ref="P2" pin="3"/>
       <node ref="SW1" pin="2"/>
-      <node ref="P2" pin="4"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="LED1" pin="1"/>
     </net>
-    <net code="5" name="/Vout">
-      <node ref="C2" pin="2"/>
-      <node ref="P2" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="Q1" pin="5"/>
-      <node ref="Q1" pin="6"/>
+    <net code="5" name="Net-(LED1-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="LED1" pin="2"/>
     </net>
-    <net code="6" name="/Vin">
+    <net code="6" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="7" name="/Vin">
+      <node ref="R2" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C4" pin="1"/>
       <node ref="P1" pin="4"/>
       <node ref="Q1" pin="3"/>
-      <node ref="R1" pin="1"/>
-      <node ref="R2" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="JP1" pin="3"/>
     </net>
-    <net code="7" name="Net-(C1-Pad1)">
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="JP1" pin="1"/>
       <node ref="R2" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="Q1" pin="4"/>
-      <node ref="Q1" pin="8"/>
+      <node ref="C4" pin="2"/>
       <node ref="Q1" pin="7"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="9" name="/Vout">
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="R4" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C2" pin="2"/>
     </net>
   </nets>
 </export>
