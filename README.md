@@ -1,3 +1,5 @@
+See a preview of the board and buy the parts from the [kitnic.it page](https://kitnic.it/boards/github.com/kasbah/push-on-hold-off). 
+
 A power switch using a push button. It turns on with a single press and only turns off when you hold the button down. This could be used to get functionality similar to most laptops where a single press when on will initiate a "soft" shutdown but you can force a "hard" shutdown by holding it down.
 
 The circuit is from [this article](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/electronic-circuits/push-button-switch-turn-on/latching-toggle-power-switch#press-on-hold-off-latching-circuits).
